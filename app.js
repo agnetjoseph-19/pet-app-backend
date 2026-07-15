@@ -44,6 +44,6 @@ app.post("/add-pet",async (req,res) => {
     res.json({"status":"success"});
 });
 
-app.listen(3000, ()=> {
+app.listen(4000, ()=> {
     console.log("server started")
 });
